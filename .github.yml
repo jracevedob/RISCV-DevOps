@@ -1,0 +1,20 @@
+variables:
+
+
+
+
+
+
+
+stages:
+ - build
+ - test
+ - deploy
+
+.ubuntu-20-04:
+ 
+
+build risc v:
+ stage: build
+ script:
+  - ls -la
